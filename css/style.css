@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    width: 20rem;
+    height: 15rem;
+}
+
+.weight {
+
+}
+
+.height {
+
+}
+
+.labelContainer {
+    display: flex;
+    gap: 1rem 0;
+    flex-direction: column;
+}
+
+.btn1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.btn2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 3px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.btnContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.labelWeight {
+
+}
+
+.labelHeight {
+    padding-left: 2px;
+}
+
+.resultsBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 20rem;
+    height: 5rem;
+}
+
+.results {
+    background-color: white;
+    
+}
